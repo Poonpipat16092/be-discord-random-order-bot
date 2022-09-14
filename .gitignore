@@ -1,4 +1,5 @@
 .idea
+/bin/**
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -18,3 +19,8 @@
 # Go workspace file
 go.work
 Footer
+
+# IDE Config
+.idea/
+.vscode/
+.DS_Store
