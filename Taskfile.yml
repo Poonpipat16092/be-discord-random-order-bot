@@ -1,0 +1,16 @@
+version: "3"
+env:
+  ENV: testing
+
+dotenv: ['.env']
+
+tasks:
+  build:
+    desc: Build the app
+    cmds:
+      - GOFLAGS=-mod=mod go build -o bin/be-discord-random-order-bot main.go
+
+  run:
+    desc: Run the app
+    cmds:
+      - GOFLAGS=-mod=mod go run main.go -t $TOKEN
