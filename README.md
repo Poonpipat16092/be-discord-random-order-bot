@@ -1,5 +1,10 @@
 <h1>Random bot discord</h1>
 
+<h2>pre-requisite</h2>
+
+1. install Taskfile `brew install go-task/tap/go-task`
+
+
 <h2>Set up</h2>
 
 0. Created `.env` 
