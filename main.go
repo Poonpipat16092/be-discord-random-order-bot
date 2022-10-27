@@ -14,7 +14,7 @@ import (
 var (
 	Token string
 )
-var log = logx.Console()
+var log = logx.Console(logx.Info)
 
 func init() {
 	flag.StringVar(&Token, "t", "", "Bot Token")
